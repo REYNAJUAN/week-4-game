@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <tittle> Crystal Collector</tittle>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+            <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+            <script src="assets/javascript/game.js"></script>
+            <script
+            src="http://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+        <!--
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+          </head>
+
+<body>
+        <div class="container">
+                <div class="navbar">
+                        <header>Cystal Collector Game</header>
+                    </div>
+                    </div> 
+
+            <div class= "container">
+                <h2>Game Instructions:</h2>
+                <p><ul>
+                    <li> A random number will be given to you at the start of the game.</li>
+                    <li> By clicking on a crystal below, you will add a specific amount
+                        of points to your total score.</li>
+                    <li> You win the game by matching your total score to a random number.</li>
+                   <li> You lose the game if your total score goes avobe the random number.</li>
+                   <li> Click on crystal to see its value.</li>
+                 </ul></p></br>
+            
+            <div class="numbers"></div>
+                <div match> Number to Match:
+                <span id='numberToMatch'>0</span>
+                </div>
+
+                <div your-number> Your Number: 
+                <span id='yourNumber'>0</span>
+                </div>
+            </div>
+
+        <div class="flex-container">
+            <div class="buttons">
+                <button class="amatyst" id="purple" value="5">
+                    <img src="assets/images/purple-crystal-1.png">
+                </button>
+            
+                <button class="ruby" id="red" value="10">
+                    <img src="assets/images/ruby-2.png">
+                </button>
+
+                <button class="diamond" id="blue" value="15">
+                    <img src="assets/images/blue-diamond-3.png">
+                </button>
+       </div>
+    </div>
+    
+
+    <div class="container">
+    <div class="score">
+
+        <div> Wins:
+            <span id='wins'>0</span> 
+        </div>
+
+        <div> Losses:
+            <span id='losses'>0</span>
+        </div>
+    </div>
+
+
+
+    </div>
+</body>
+</html>
